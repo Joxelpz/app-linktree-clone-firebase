@@ -1,0 +1,57 @@
+.wrapper-link{
+    padding: 10px;
+    border: 1px solid #747474;
+    border-radius: 5px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-link-h{
+    min-height: 35px;
+}
+.content-link-h-f{
+    min-height: 35px;
+    display: flex;
+    align-items: center;
+}
+.input-edit{
+    border: 1px solid #747474;
+    border-radius: 5px;
+    padding:5px 10px;
+    color: #747474;
+    font-size: 16px;
+    outline: none;
+}
+.button-edit{
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    background: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.button-delete{
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background: none;
+    border-radius: 5px;
+}
+.button-delete:hover, .button-edit:hover{
+    background: #74747450;
+}
+.button-delete img, .button-edit img{
+    width: 20px;
+    height: 20px;
+}
+.title-content-link{
+    font-size: 16px;
+    font-weight: 700;
+    color: #747474;
+}
+.url-content-link{
+    font-size: 16px;
+    font-weight: 500;
+    color: #747474;
+}

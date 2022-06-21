@@ -1,0 +1,94 @@
+.wrapper-create-user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 200px);
+    background: #aba2d0;
+    padding: 100px;
+}
+.create-user{
+    width: 400px;
+    height: 400px;
+    background: #fff;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: rgba(20, 20, 20, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.create-user-title{
+    font-size: 30px;
+    font-weight: 700;
+    color: #747474;
+    margin-bottom: 20px;
+    line-height: 1;
+}
+.create-user-description{
+    font-size: 16px;
+    color: #747474;
+    font-weight: 500;
+    margin: 20px 0;
+    line-height: 1;
+}
+.create-user-input input{
+    border: 1px solid #747474;
+    border-radius: 5px;
+    padding: 10px;
+    width: 50%;
+    color: #747474;
+    font-size: 16px;
+    outline: none;
+}
+.create-user-button-dash{
+    border-radius: 5px;
+    border: 2px solid #83becc ;
+    color: #83becc;
+    background: none;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+    padding: 10px;
+    margin-top: 30px;
+}
+.create-user-button-dash:hover{
+    color: #fff;
+    background: #83becc;
+}
+.create-user-button-cancel{
+    border-radius: 5px;
+    border: none;
+    margin-left: 10px;
+    color: #747474;
+    background: none;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+    padding: 10px;
+    text-decoration: underline;
+}
+.create-user-button-cancel:hover{
+    color: #fff;
+    background: #747474;
+}
+.create-user-error{
+    font-size: 16px;
+    margin: 10px 0;
+    color: rgb(190, 51, 51);
+}
+@media (max-width: 767px) {
+    .wrapper-create-user{
+        background: #fff;
+        padding: 50px;
+    }
+    .create-user{
+        width: 400px;
+        height: 400px;
+        background: #fff;
+        padding: 0;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    .create-user-title{
+        font-size: 25px;
+    }
+}

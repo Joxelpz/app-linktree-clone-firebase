@@ -1,0 +1,107 @@
+.wrapper-public{
+    display: flex;
+    justify-content: center;
+    min-height: calc(100vh - 100px);
+    background: #aba2d0;
+    padding: 50px;
+}
+.public-profile{
+    width: 400px;
+    min-height: 400px;
+    background: #fff;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: rgba(20, 20, 20, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.public-img{
+    text-align: center;
+}
+.public-img img{
+    padding: 1px;
+    border: 5px solid #747474;
+    border-radius: 100px;
+    width: 140px;
+}
+.username-public{
+    font-size: 20px;
+    font-weight: bold;
+    color: #747474;
+    line-height: 1;
+    text-align: center;
+    margin: 10px 0;
+}
+.name-public{
+    font-size: 24px;
+    font-weight: 600;
+    color: #747474;
+    line-height: 1;
+    text-align: center;
+    margin: 10px 0;
+}
+.links{
+    width: 100%;
+}
+.wrapper-button-p{
+    padding: 10px 0;
+}
+.button-public{
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #83becc ;
+    color: #fff;
+    background: #83becc;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+.button-public:hover{
+    background: none;
+    color: #83becc;
+}
+.wrapper-no-exist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 100px);
+    padding: 50px;
+}
+.no-exist{
+    text-align: center;
+}
+.title-no-exist{
+    font-size: 40px;
+    font-weight: 700;
+    color: #747474;
+    margin: 20px 0;
+    line-height: 1;
+}
+.a-no-exist{
+    font-size: 20px;
+    font-weight: 600;
+    color: #747474;
+    line-height: 1;
+}
+.a-no-exist a{
+    color: #747474;
+    font-weight: bold;
+}
+
+@media (max-width: 767px) {
+    .wrapper-public{
+        background: #fff;
+    }
+    .public-profile{
+        background: #fff;
+        padding: 0;
+        border-radius: 0;
+        box-shadow: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
